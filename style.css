@@ -1,0 +1,253 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #ff0000;
+}
+.signup a:hover{
+	background-color: red;
+	transition: 0.6s;
+}
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url(images/images.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+.places{
+	display: grid;
+	text-align: center;
+	border-radius: 12px;
+}
+
+.places h2{
+	color: red;
+	font-size: 35px;
+	letter-spacing: 2px;
+	border-radius: 12px 12px 0 0;
+	padding: 30px 30px;
+	background-color: #000;
+}
+.places a{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #fff;
+}
+.places a:hover{
+	background-color: #000;
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+
+.section{
+	width: 80%;
+	margin: 80px auto;
+	
+}
+.section h1{
+	text-align: left;
+	font-size: 4vmin;
+	color: #49497e;
+	background-color:burlywood;
+
+}
+
+.col{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+col.row{
+	display:grid;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.row img{
+	margin-right: 100px;
+	margin-left: 100px;
+	display: grid;
+	align-items: center;
+	width: 350px;
+	height: 300px;
+	border: 2px solid #000;
+	border-radius: 13px;
+	box-shadow: 4px 7px 7px 0px #00000042; 
+	cursor: pointer;
+	margin: 10 px;
+	transition: 400ms;
+}
+.row img:hover{
+	filter: grayscale(1);
+	transform: scale(1.03);
+}
+.event col{
+	margin-top: 30px;
+}
+h4{
+	font-size: 3vmin;
+	color: #484872;
+	margin:20px auto;
+	text-align: center;
+}
+
+
+div.main{
+	width: 400px;
+	margin: 100px auto 0px auto;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+
+}
+div.register{
+	padding-top: 0px;
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 18px;
+	border-radius: 10px;
+	border: 1px solid rgba(255,255,255,0.3);
+	box-shadow: 2px 2px 15px
+	rgba(0,0,0,0.3);
+	color: #fff;
+}
+form#register{
+margin: 40px;
+}
+label{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+}
+input#name{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	outline: 0;
+	padding: 7px;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 5px
+	rgba(0,0,0,0.3);
+}
+input#submit{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border: none;
+	border-radius: 3px;
+	background-color: rgba(250,100,0,0.8);
+	color: #fff;
+	cursor: pointer;
+	border: 1px solidrgba(255,255,255,0.3);
+	box-shadow: 1px 1px 5px
+	rgba(0,0,0,0.3);
+}
+label,span,h2{
+	text-shadow: 1px 1px 5px
+	rgba(0,0,0,0.3);
+}
+.footer{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
